@@ -20,7 +20,7 @@ FPGA interactive debugger tools assist engineers in quickly detecting and correc
 
 | **Transformation**            | **Short Description**                                                                 |
 |--------------------------------|---------------------------------------------------------------------------------------|
-| **Program Transformations**    | **Actions follow transformation**                                                    |
+| **Program Transformations(Actions follow transformation)**    |                                                  |
 | Assignment Conversion          | When there is no data interaction, blocking and non-blocking assignments can be interchanged. |
 | Integer Literal to Expression  | Replacing `2’h3` with `2’h1 + 2’h2` has no effect.                                    |
 | Bit Mutation                   | Replacing `wire1` with `~(~(wire1))` has no effect.                                   |
